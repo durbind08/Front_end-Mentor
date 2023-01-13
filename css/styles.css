@@ -124,18 +124,24 @@ body {
     border-radius: 0.5rem;
     overflow: hidden;
     max-width: 600px;
+    padding: 1.5rem;
+    border-spacing: 1rem;
 }
 
 @media (min-width: 600px) {
     .product {
+        border-radius: 0.625rem;
+        display:grid;
+        padding: 2rem;
         grid-template-columns: 1fr 1fr;
     }
 }
 
 .product__content {
-    padding: 1.5rem;
     display: grid;
+    padding: 1.5rem;
     gap: 1rem;
+    background-color: #ffff;
 }
 
 .product__type {
