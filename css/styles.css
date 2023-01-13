@@ -131,14 +131,13 @@ body {
 @media (min-width: 600px) {
     .product {
         border-radius: 0.625rem;
-        display:grid;
+        display: grid;
         padding: 2rem;
         grid-template-columns: 1fr 1fr;
     }
 }
 
 .product__content {
-    display: grid;
     padding: 1.5rem;
     gap: 1rem;
     background-color: #ffff;
